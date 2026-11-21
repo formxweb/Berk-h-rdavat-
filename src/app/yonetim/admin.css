@@ -1,16 +1,16 @@
 /* Yönetim paneli: açık, yoğun, iş odaklı. Mağazanın renk değişkenleri burada açık tona çevrilir. */
 .adm {
-  --bg: #f4f2ee;
+  --bg: #eef0f2;
   --surface: #ffffff;
-  --raise: #efebe5;
-  --line: #ddd6cc;
-  --line-soft: #e9e4dc;
-  --fg: #1f1a16;
-  --muted: #6c635a;
-  --brass: #8a6416;
-  --brass-hi: #9c7420;
+  --raise: #f4f5f7;
+  --line: #d7dbe1;
+  --line-soft: #e4e7eb;
+  --fg: #141821;
+  --muted: #596172;
+  --brass: #2457e6;
+  --brass-hi: #1a44bd;
   --brass-ink: #ffffff;
-  --stitch: #b89b72;
+  --stitch: #bfc5cf;
   --red: #b4382b;
   --green: #2f7a3e;
   --amber: #a86a10;
@@ -45,8 +45,8 @@
   min-height: 100vh;
 }
 .adm-side {
-  background: #1c1512;
-  color: #efe5d8;
+  background: #0f1e45;
+  color: #e6ebf5;
   padding: 18px 12px calc(18px + env(safe-area-inset-bottom, 0px));
   display: flex;
   flex-direction: column;
@@ -66,7 +66,7 @@
   font-size: 1.6rem;
 }
 .adm-brand small {
-  color: #c9a35a;
+  color: #ffd43b;
   font-weight: 600;
 }
 .adm-nav {
@@ -80,13 +80,13 @@
   gap: 8px;
   padding: 9px 10px;
   border-radius: 6px;
-  color: #cbbfb0;
+  color: #c3cce2;
   text-decoration: none;
   font-weight: 500;
 }
 .adm-nav a:hover,
 .adm-nav a.on {
-  background: #2e241e;
+  background: #1d3170;
   color: #fff;
 }
 .adm-nav b {
@@ -94,8 +94,8 @@
   height: 22px;
   padding: 0 6px;
   border-radius: 11px;
-  background: #d4ad5f;
-  color: #1a130f;
+  background: #ffd43b;
+  color: #141821;
   font-size: 0.75rem;
   display: grid;
   place-items: center;
@@ -106,11 +106,11 @@
   gap: 8px;
   padding: 0 10px;
   font-size: 0.85rem;
-  color: #a99c8c;
+  color: #aeb9d4;
 }
 .adm-side-foot a,
 .adm-side-foot button {
-  color: #efe5d8;
+  color: #e6ebf5;
 }
 .adm-main {
   padding: 24px clamp(16px, 3vw, 36px) 64px;
@@ -246,7 +246,7 @@
   vertical-align: middle;
 }
 .tbl tr:hover td {
-  background: #faf8f4;
+  background: #f7f8fa;
 }
 .tbl a {
   font-weight: 600;
@@ -456,11 +456,11 @@ article.op {
   display: grid;
   gap: 8px;
   justify-items: center;
-  background: #faf8f4;
+  background: #f7f8fa;
 }
 .drop.over {
   border-color: var(--brass);
-  background: #f7efdc;
+  background: #eef3ff;
 }
 .rows {
   display: grid;
