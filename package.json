@@ -1,0 +1,37 @@
+{
+  "name": "berkspot-hirdavat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "tsx scripts/setup.ts && next build",
+    "build:app": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:setup": "tsx scripts/setup.ts"
+  },
+  "dependencies": {
+    "@fontsource-variable/archivo": "^5.2.8",
+    "bcryptjs": "^3.0.3",
+    "drizzle-orm": "^0.45.3",
+    "next": "16.3.8",
+    "nodemailer": "^10.0.13",
+    "postgres": "^3.4.9",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "tsx": "^4.23.15",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/nodemailer": "^8.0.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "drizzle-kit": "^0.31.11",
+    "typescript": "^5.9.2"
+  },
+  "engines": {
+    "node": ">=20.9"
+  }
+}
